@@ -1,0 +1,41 @@
+
+
+form input {
+    height: 20px;
+    padding: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 400px;
+
+}
+
+form input::placeholder {
+    padding: 5px;
+}
+
+form input[type="submit"] {
+    height: 40px;
+    width: 60px;
+    padding: 4px;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+
+#prov input {
+    height: 30px;
+    width: 300px;
+    padding: 4px;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+
+@media screen and (max-width: 480px) {
+   
+
+    form input {
+       
+        width: 300px;
+    }
+}
